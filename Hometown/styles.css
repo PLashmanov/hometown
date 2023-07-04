@@ -1,0 +1,95 @@
+
+
+
+body {
+   
+    margin: 0;
+    text-align: center;
+}
+
+
+
+h1, h2, h3, h4, p {
+    
+    color:#ff9f1c;
+    font-family: 'Zilla Slab', serif;
+}
+.hero{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(images/NJ.jpg);
+    background-size: cover;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: none;
+    padding:0;
+
+}
+
+#herotext1 {
+    
+    background:#4361ee;
+    border-radius: 5px;
+}
+
+#herotext2 {
+    margin-top:100px;
+    background: #184e77;
+    border-radius:5px;
+}
+
+.act{
+    margin-top: -20px;
+    background:#c0fdff;
+    height: cover;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#acttext1{
+    background:#c0fdff;
+    display:flex;
+    text-align: center;
+    flex-direction:column
+}
+
+.img1 {
+    padding: 0;
+    width: 120px;
+    padding:20px;
+    border-radius: 50%;
+}
+
+img{
+    width:300px;
+    border-radius:20%;
+}
+
+#guide{
+    margin: 0 auto;
+    width: 450px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color:#3a86ff;
+    border-bottom:15px solid #7209b7;
+    background-color:#3a0ca3 ;
+    border-radius: 20px;
+
+}
+
+a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
